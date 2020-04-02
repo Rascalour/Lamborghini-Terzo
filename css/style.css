@@ -1,0 +1,43 @@
+body {
+  background-image: url(/component/images/fond.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+}
+
+header {
+  list-style: none;
+  color: white;
+}
+
+header li {
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+body h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+  font-size: 400%;
+  letter-spacing: 10px;
+  color: #ffc027;
+}
+.description p {
+  color: rgb(199, 199, 199);
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.middle .add {
+  position: absolute;
+  top: 400px;
+}
